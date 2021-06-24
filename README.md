@@ -5,6 +5,7 @@ If you want to build this cooling system you need:
 - DC-fan
 - Transistor (I used a [BC337](https://www.onsemi.com/pdf/datasheet/bc337-d.pdf))
 - Resistor (I used a 1 kΩ resistor)
+The circuit looks like this:
 ![circuit.png](images/circuit.png)
 ---
 ## Install
@@ -22,5 +23,6 @@ sudo apt install gpiod libgpiod-dev libpigpio-dev libpigpio1 -y
 2. Cd into the directory
 3. Run `make`
 4. Enable the service with systemctl
-	- `systemctl enable pifancontrol`
-
+```bash
+systemctl enable pifancontrol
+```
