@@ -10,13 +10,11 @@ The circuit looks like this:
 ---
 ## Install
 To install the project you need to install the following libaries:
-- `gpiod`
 - `libgpiod-dev`
 - `libpigpio-dev`
-- `libpigpio1`
 ### On Rasperry Pi OS:
 ```bash
-sudo apt install gpiod libgpiod-dev libpigpio-dev libpigpio1 -y
+sudo apt install libgpiod-dev libpigpio-dev -y
 ```
 ### Make
 1. Get this git repository
