@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 	 */
 	unsigned int dutyCycle = 100;
 	unsigned int waitSteps[] = {5, 15, 25, 35};
-	unsigned int speedSteps[] = {255, 200, 155, 0};
+	unsigned int speedSteps[] = {255, 200, 135, 0};
 	unsigned int temperatures[] = {55000, 50000, 48000, 0};
 
 	// Variables for the program
